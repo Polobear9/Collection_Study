@@ -20,5 +20,10 @@ public class Main {
         heroPocket1.setData(new Hero("minato"));
         Hero hero1 = heroPocket1.getData();
         System.out.println(hero1.getName());
+
+        MonsterPocket monsterPocket1 = new MonsterPocket();
+        monsterPocket1.setData(new Monster("slime"));
+        Monster monster1 = monsterPocket1.getData();
+        System.out.println(monster1.getName());
     }
 }
