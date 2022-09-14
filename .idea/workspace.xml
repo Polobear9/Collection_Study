@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="Make a HeroPocket Class , field is Hero data;">
-      <change afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MonsterPocket.java" afterDir="false" />
+    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="Make a monster pocket, and monster class.">
+      <change afterPath="$PROJECT_DIR$/src/ObjectPocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663122168634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Make a monster pocket, and monster class.">
+      <created>1663122361348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663122361348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Collection--&#10;ArrayList...()&#10;ArrayList&lt;E&gt;" />
     <MESSAGE value="Make a HeroPocket Class , field is Hero data;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make a HeroPocket Class , field is Hero data;" />
+    <MESSAGE value="Make a monster pocket, and monster class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Make a monster pocket, and monster class." />
   </component>
 </project>
