@@ -9,4 +9,8 @@ public class MonsterPocket {
         this.data = data;
     }
 
+    public MonsterPocket(Monster data) {
+        ;
+        this.data = data;
+    }
 }

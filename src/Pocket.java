@@ -1,4 +1,5 @@
 public class Pocket <E>{
+
     private E data;
 
     public E getData() {
@@ -6,6 +7,10 @@ public class Pocket <E>{
     }
 
     public void setData(E data) {
+        this.data = data;
+    }
+
+    public Pocket(E data) {
         this.data = data;
     }
 }

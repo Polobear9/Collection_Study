@@ -1,11 +1,11 @@
-public class ObjectPocket {
-    private Object data;
+public class ObjectPocket <E>{
+    private E data;
 
-    public Object getData() {
+    public E getData() {
         return data;
     }
 
-    public void setData(Object data) {
+    public void setData(E data) {
         this.data = data;
     }
 }

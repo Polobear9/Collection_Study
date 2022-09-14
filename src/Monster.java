@@ -1,15 +1,15 @@
-public class Monster {
-    private String name;
+public class Monster <E>{
+    private String Monster_name;
 
-    public String getName() {
-        return name;
+    public Monster(String monster_name) {
+        Monster_name = monster_name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getMonster_name() {
+        return Monster_name;
     }
 
-    public Monster(String name) {
-        this.name = name;
+    public void setMonster_name(String monster_name) {
+        Monster_name = monster_name;
     }
 }
