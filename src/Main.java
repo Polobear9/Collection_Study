@@ -16,14 +16,14 @@ public class Main {
 
         String apple2 = list2.get(0);
 
-        ObjectPocket heroPocket1 = new ObjectPocket();
-        heroPocket1.setData(new Hero("minato"));
-        Hero hero1 = (Hero) heroPocket1.getData();
+        Pocket<Hero> heroPocket1 = new Pocket<Hero>();
+        heroPocket1.setData(new Hero ("minato"));
+        Hero hero1 = heroPocket1.getData();
         System.out.println(hero1.getName());
 
-        ObjectPocket monsterPocket1 = new ObjectPocket();
+        Pocket<Monster> monsterPocket1 = new <Monster>Pocket();
         monsterPocket1.setData(new Monster("slime"));
-        Monster monster1 = (Monster) monsterPocket1.getData();
+        Monster monster1 = monsterPocket1.getData();
         System.out.println(monster1.getName());
     }
 }
