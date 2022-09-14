@@ -15,5 +15,10 @@ public class Main {
         list2.get(0); // --> <E>..get(index) is can change the type to <E>. so do not need to cast.
 
         String apple2 = list2.get(0);
+
+        HeroPocket heroPocket1 = new HeroPocket();
+        heroPocket1.setData(new Hero("minato"));
+        Hero hero1 = heroPocket1.getData();
+        System.out.println(hero1.getName());
     }
 }
