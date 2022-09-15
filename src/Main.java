@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,5 +27,15 @@ public class Main {
         monsterPocket1.setData(new Monster("slime"));
         Monster monster1 = monsterPocket1.getData();
         System.out.println(monster1.getMonster_name());
+
+        //ArrayList instance type.
+        new ArrayList<String>();
+        new ArrayList();
+        new ArrayList<Object>();
+
+        ArrayList<String> list1 = new ArrayList<String>();
+        List<String> ArrayList2 = new ArrayList<String>();
+        Collection<String> list3 = new ArrayList<String>();
+
     }
 }
