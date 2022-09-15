@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -45,6 +46,13 @@ public class Main {
         ArrayList2.add("melon");
         ArrayList2.add("strawberry");
         ArrayList2.add("tenjerling");
+
+        try{ ArrayList2.add(7,"apple");
+        } catch (IndexOutOfBoundsException e){
+
+        }finally {
+            System.out.println("Finish");
+        }
 
 
     }
