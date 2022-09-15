@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="Use a add method in ArrayList.">
+    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="Try to call a Exception. and make a Try-Catch sentence.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663206243681</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Try to call a Exception. and make a Try-Catch sentence.">
+      <created>1663207212690</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663207212690</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +137,7 @@
     <MESSAGE value="add a &lt;&gt; for many type class.&#10;...Pocket&lt;Hero&gt; ... = new Pocket&lt;Hero&gt;();" />
     <MESSAGE value="Add code, ArrayList instance Type." />
     <MESSAGE value="Use a add method in ArrayList." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use a add method in ArrayList." />
+    <MESSAGE value="Try to call a Exception. and make a Try-Catch sentence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Try to call a Exception. and make a Try-Catch sentence." />
   </component>
 </project>

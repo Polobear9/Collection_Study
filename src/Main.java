@@ -46,14 +46,17 @@ public class Main {
         ArrayList2.add("melon");
         ArrayList2.add("strawberry");
         ArrayList2.add("tenjerling");
+        System.out.println(ArrayList2.size());
 
-        try{ ArrayList2.add(7,"apple");
+        try{ ArrayList2.add(6,"apple");
         } catch (IndexOutOfBoundsException e){
-
+            System.out.println("Please set the in index Number --> " + ArrayList2.size() + " ");
+            System.out.println("Sample... ArrayList2.add(" + ArrayList2.size() + ", element)");
         }finally {
             System.out.println("Finish");
         }
 
+        ArrayList2.set(1, "Jerry");
 
     }
 }
