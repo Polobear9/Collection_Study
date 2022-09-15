@@ -37,5 +37,15 @@ public class Main {
         List<String> ArrayList2 = new ArrayList<String>();
         Collection<String> list3 = new ArrayList<String>();
 
+        ArrayList2.add(0, "hoge"); // array list can not point the index number.
+        //List is suggest to user use a interface into the super class when they use a instance method.
+
+        ArrayList2.add("Apple");
+        ArrayList2.add("banana");
+        ArrayList2.add("melon");
+        ArrayList2.add("strawberry");
+        ArrayList2.add("tenjerling");
+
+
     }
 }

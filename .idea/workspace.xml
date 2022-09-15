@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="add a &lt;&gt; for many type class.&#10;...Pocket&lt;Hero&gt; ... = new Pocket&lt;Hero&gt;();">
+    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="Add code, ArrayList instance Type.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663128705438</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add code, ArrayList instance Type.">
+      <created>1663205405737</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663205405737</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +121,7 @@
     <MESSAGE value="Make a monster pocket, and monster class." />
     <MESSAGE value="make a ObjectPocket for many type of class file." />
     <MESSAGE value="add a &lt;&gt; for many type class.&#10;...Pocket&lt;Hero&gt; ... = new Pocket&lt;Hero&gt;();" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a &lt;&gt; for many type class.&#10;...Pocket&lt;Hero&gt; ... = new Pocket&lt;Hero&gt;();" />
+    <MESSAGE value="Add code, ArrayList instance Type." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code, ArrayList instance Type." />
   </component>
 </project>
