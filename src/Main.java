@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
@@ -57,6 +58,14 @@ public class Main {
         }
 
         ArrayList2.set(1, "Jerry");
+
+        Stack<String> stack = new Stack<String>();
+
+        stack.push("apple");
+        stack.push("banana");
+        stack.push("strawberry");
+
+        System.out.println("Stack: " + stack);
 
     }
 }

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="Try to call a Exception. and make a Try-Catch sentence.">
+    <list default="true" id="37ebd1e2-f5f0-4f7e-ab1e-f89a74d7eadd" name="Changes" comment="use a set method , how to use and how to change check.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663207212690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="use a set method , how to use and how to change check.">
+      <created>1663208895124</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663208895124</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +144,7 @@
     <MESSAGE value="Add code, ArrayList instance Type." />
     <MESSAGE value="Use a add method in ArrayList." />
     <MESSAGE value="Try to call a Exception. and make a Try-Catch sentence." />
-    <option name="LAST_COMMIT_MESSAGE" value="Try to call a Exception. and make a Try-Catch sentence." />
+    <MESSAGE value="use a set method , how to use and how to change check." />
+    <option name="LAST_COMMIT_MESSAGE" value="use a set method , how to use and how to change check." />
   </component>
 </project>
