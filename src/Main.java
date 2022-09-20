@@ -1,8 +1,4 @@
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,12 +44,15 @@ public class Main {
         ArrayList2.add("strawberry");
         ArrayList2.add("tenjerling");
         System.out.println(ArrayList2.size());
+        int[] sample = new int[5];
+        sample[0] = 0;
 
-        try{ ArrayList2.add(6,"apple");
-        } catch (IndexOutOfBoundsException e){
+        try {
+            ArrayList2.add(6, "apple");
+        } catch (IndexOutOfBoundsException e) {
             System.out.println("Please set the in index Number --> " + ArrayList2.size() + " ");
             System.out.println("Sample... ArrayList2.add(" + ArrayList2.size() + ", element)");
-        }finally {
+        } finally {
             System.out.println("Finish");
         }
 
@@ -66,6 +65,28 @@ public class Main {
         stack.push("strawberry");
 
         System.out.println("Stack: " + stack);
+
+        stack.isEmpty(); // check the stack is empty or not.
+        stack.pop();
+
+        HashSet<String> set = new HashSet<String>();
+        set.add("apple");
+        set.add("banana");
+        set.add("strawberry");
+
+        System.out.println("Set: " + set);
+
+        HashMap<String, String> mapTest = new HashMap<>();
+        mapTest.put("1", "strawberry");
+        mapTest.put("2", "banana");
+        mapTest.put("3", "apple");
+        mapTest.put("4", "mango");
+
+        System.out.println("Map: " + mapTest);
+
+        mapTest.replace("2", "Pear");
+
+        System.out.println("Map: " + mapTest);
 
     }
 }
