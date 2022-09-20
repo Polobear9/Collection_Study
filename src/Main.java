@@ -88,5 +88,9 @@ public class Main {
 
         System.out.println("Map: " + mapTest);
 
+        mapTest.remove("2");
+
+        System.out.println("Map: " + mapTest);
+
     }
 }
